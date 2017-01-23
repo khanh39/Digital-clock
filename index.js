@@ -53,3 +53,9 @@ document.getElementById("ttt").innerHTML = day + ", " + date + "." + month + "."
 }
 setTimeout(printTime, 1);
 setInterval(printTime, 1000);
+
+   month = month + 1; document.getElementById("test").innerHTML = hours+":"+mins+":"+secs;
+document.getElementById("ttt").innerHTML = day + ", " + date + "." + month + "." + year;
+}
+setTimeout(printTime, 1);
+setInterval(printTime, 1000);
